@@ -1,0 +1,26 @@
+[
+    {
+        "arguments": ["hello"],
+        "result": ""
+    },
+    {
+        "arguments": [[]],
+        "result": ""
+    },
+    {
+        "arguments": [[1]],
+        "result": ""
+    },
+    {
+        "arguments": [["foo", "baar"]],
+        "result": "baar"
+    },
+    {
+        "arguments": [["foo", "arm"]],
+        "result": "arm"
+    },
+    {
+        "arguments": [[true, "hello", "world"]],
+        "result": "hello"
+    }
+]

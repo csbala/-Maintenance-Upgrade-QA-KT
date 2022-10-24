@@ -6,12 +6,13 @@
  *                    or rejects if parameter is not correct
  */
 
-
-
- module.exports = function sleep(sec) {
-
-    
-
-}
-
-
+module.exports = function sleep(sec) {
+  return new Promise((resolve, reject) => {
+    if (typeof sec === "number") {
+      if (sec > 10) sec = 10;
+      setTimeout(() => {
+        resolve();
+      }, sec * 1000);
+    } else reject("The parameter is incorrect!");
+  });
+};

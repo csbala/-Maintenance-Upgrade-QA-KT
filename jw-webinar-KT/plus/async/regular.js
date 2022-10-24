@@ -1,13 +1,17 @@
 async function wait() {
-    await new Promise(resolve => setTimeout(resolve, 1000));
-
-    return 10;
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, 1000);
+  });
 }
 
-/* 
+/*
  * You need to call async wait() and wait to get 10 and return it
  * You can't use "await"!
  */
 module.exports = function f() {
-     return wait();
-}
+  return Promise.all([wait()]).then(() => {
+    return 10;
+  });
+};

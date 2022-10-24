@@ -1,78 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.0860" tests="117" failures="53">
-  <testsuite name="Root Suite" timestamp="2022-10-24T07:25:29" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="17.1400" tests="117" failures="50">
+  <testsuite name="Root Suite" timestamp="2022-10-24T13:38:08" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="async / .loadJson" timestamp="2022-10-24T07:25:29" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\async\loadJson.spec.js" time="0.0070" failures="0">
+  <testsuite name="async / .loadJson" timestamp="2022-10-24T13:38:08" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\async\loadJson.spec.js" time="0.0080" failures="0">
     <testcase name="async / .loadJson should handle successfull request" time="0.0020" classname="should handle successfull request">
     </testcase>
-    <testcase name="async / .loadJson should handle failed request" time="0.0010" classname="should handle failed request">
+    <testcase name="async / .loadJson should handle failed request" time="0.0020" classname="should handle failed request">
     </testcase>
-    <testcase name="async / .loadJson should use await and not then" time="0.0000" classname="should use await and not then">
+    <testcase name="async / .loadJson should use await and not then" time="0.0010" classname="should use await and not then">
     </testcase>
   </testsuite>
-  <testsuite name="async / regular" timestamp="2022-10-24T07:25:29" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\async\regular.spec.js" time="2.0230" failures="0">
-    <testcase name="async / regular should should return correct value" time="1.0010" classname="should should return correct value">
+  <testsuite name="async / regular" timestamp="2022-10-24T13:38:08" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\async\regular.spec.js" time="2.0350" failures="0">
+    <testcase name="async / regular should should return correct value" time="1.0150" classname="should should return correct value">
     </testcase>
     <testcase name="async / regular should wait 1 seconds" time="1.0160" classname="should wait 1 seconds">
     </testcase>
-    <testcase name="async / regular should not use async / await" time="0.0010" classname="should not use async / await">
+    <testcase name="async / regular should not use async / await" time="0.0000" classname="should not use async / await">
     </testcase>
   </testsuite>
-  <testsuite name="async / sleep" timestamp="2022-10-24T07:25:31" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\async\sleep.spec.js" time="0.0060" failures="3">
-    <testcase name="async / sleep should wait given seconds" time="0.0010" classname="should wait given seconds">
-      <failure message="expected 1 to be above 4900" type="AssertionError"><![CDATA[AssertionError: expected 1 to be above 4900
-    at Context.<anonymous> (plus\test\async\sleep.spec.js:12:29)]]></failure>
+  <testsuite name="async / sleep" timestamp="2022-10-24T13:38:10" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\async\sleep.spec.js" time="15.0330" failures="0">
+    <testcase name="async / sleep should wait given seconds" time="5.0130" classname="should wait given seconds">
     </testcase>
-    <testcase name="async / sleep should wait at most 10 seconds" time="0.0010" classname="should wait at most 10 seconds">
-      <failure message="expected +0 to be above 9900" type="AssertionError"><![CDATA[AssertionError: expected +0 to be above 9900
-    at Context.<anonymous> (plus\test\async\sleep.spec.js:21:29)]]></failure>
+    <testcase name="async / sleep should wait at most 10 seconds" time="10.0150" classname="should wait at most 10 seconds">
     </testcase>
-    <testcase name="async / sleep should handle incorrect values" time="0.0010" classname="should handle incorrect values">
-      <failure message="done() invoked with non-Error: Did not reject, but throw!" type="Error"><![CDATA[Error: done() invoked with non-Error: Did not reject, but throw!
-    at Context.<anonymous> (plus\test\async\sleep.spec.js:34:13)
-    at processImmediate (node:internal/timers:466:21)]]></failure>
+    <testcase name="async / sleep should handle incorrect values" time="0.0000" classname="should handle incorrect values">
     </testcase>
   </testsuite>
-  <testsuite name="Circle" timestamp="2022-10-24T07:25:31" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\oop\circle.spec.js" time="0.0020" failures="0">
+  <testsuite name="Circle" timestamp="2022-10-24T13:38:25" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\oop\circle.spec.js" time="0.0030" failures="0">
     <testcase name="Circle should store radius" time="0.0000" classname="should store radius">
     </testcase>
-    <testcase name="Circle should handle invalid radius" time="0.0010" classname="should handle invalid radius">
+    <testcase name="Circle should handle invalid radius" time="0.0000" classname="should handle invalid radius">
     </testcase>
     <testcase name="Circle should calculate perimeter" time="0.0000" classname="should calculate perimeter">
     </testcase>
     <testcase name="Circle should calculate ares" time="0.0000" classname="should calculate ares">
     </testcase>
   </testsuite>
-  <testsuite name=".delete(o)" timestamp="2022-10-24T07:25:31" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\oop\delete.spec.js" time="0.0020" failures="0">
-    <testcase name=".delete(o) should handle if not object is passed" time="0.0010" classname="should handle if not object is passed">
+  <testsuite name=".delete(o)" timestamp="2022-10-24T13:38:25" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\oop\delete.spec.js" time="0.0010" failures="0">
+    <testcase name=".delete(o) should handle if not object is passed" time="0.0000" classname="should handle if not object is passed">
     </testcase>
     <testcase name=".delete(o) should delete property" time="0.0000" classname="should delete property">
     </testcase>
     <testcase name=".delete(o) should not modify original object" time="0.0000" classname="should not modify original object">
     </testcase>
   </testsuite>
-  <testsuite name=".properties" timestamp="2022-10-24T07:25:31" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\oop\properties.spec.js" time="0.0010" failures="0">
+  <testsuite name=".properties" timestamp="2022-10-24T13:38:25" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\oop\properties.spec.js" time="0.0030" failures="0">
     <testcase name=".properties should handle if parameter is not object" time="0.0000" classname="should handle if parameter is not object">
     </testcase>
-    <testcase name=".properties should return properties of the object" time="0.0000" classname="should return properties of the object">
+    <testcase name=".properties should return properties of the object" time="0.0010" classname="should return properties of the object">
     </testcase>
   </testsuite>
-  <testsuite name=".reverse(o)" timestamp="2022-10-24T07:25:31" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\oop\reverse.spec.js" time="0.0030" failures="0">
-    <testcase name=".reverse(o) should handle if not object is passed" time="0.0010" classname="should handle if not object is passed">
+  <testsuite name=".reverse(o)" timestamp="2022-10-24T13:38:25" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\oop\reverse.spec.js" time="0.0040" failures="0">
+    <testcase name=".reverse(o) should handle if not object is passed" time="0.0000" classname="should handle if not object is passed">
     </testcase>
-    <testcase name=".reverse(o) should reverse object" time="0.0000" classname="should reverse object">
+    <testcase name=".reverse(o) should reverse object" time="0.0010" classname="should reverse object">
     </testcase>
-    <testcase name=".reverse(o) should handle duplicate" time="0.0000" classname="should handle duplicate">
+    <testcase name=".reverse(o) should handle duplicate" time="0.0010" classname="should handle duplicate">
     </testcase>
-    <testcase name=".reverse(o) should not modify original object" time="0.0010" classname="should not modify original object">
+    <testcase name=".reverse(o) should not modify original object" time="0.0000" classname="should not modify original object">
     </testcase>
   </testsuite>
-  <testsuite name="In the Catalan series" timestamp="2022-10-24T07:25:31" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\catalanNumber.spec.js" time="0.0040" failures="3">
+  <testsuite name="In the Catalan series" timestamp="2022-10-24T13:38:25" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\catalanNumber.spec.js" time="0.0050" failures="3">
     <testcase name="In the Catalan series the parameter should be a number" time="0.0010" classname="the parameter should be a number">
     </testcase>
-    <testcase name="In the Catalan series the -2. number should return error" time="0.0010" classname="the -2. number should return error">
+    <testcase name="In the Catalan series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
-    <testcase name="In the Catalan series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
+    <testcase name="In the Catalan series the -1. number should return error" time="0.0010" classname="the -1. number should return error">
     </testcase>
     <testcase name="In the Catalan series the 0. number should be 1" time="0.0000" classname="the 0. number should be 1">
       <failure message="catalanNumber is not a function" type="TypeError"><![CDATA[TypeError: catalanNumber is not a function
@@ -90,10 +83,10 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Central binomial coefficient series" timestamp="2022-10-24T07:25:31" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\centralBinomialCoefficient.spec.js" time="0.0020" failures="2">
+  <testsuite name="In the Central binomial coefficient series" timestamp="2022-10-24T13:38:25" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\centralBinomialCoefficient.spec.js" time="0.0020" failures="2">
     <testcase name="In the Central binomial coefficient series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
-    <testcase name="In the Central binomial coefficient series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
+    <testcase name="In the Central binomial coefficient series the -2. number should return error" time="0.0010" classname="the -2. number should return error">
     </testcase>
     <testcase name="In the Central binomial coefficient series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
     </testcase>
@@ -108,12 +101,12 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Cullen series" timestamp="2022-10-24T07:25:31" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\cullenNumber.spec.js" time="0.0020" failures="2">
+  <testsuite name="In the Cullen series" timestamp="2022-10-24T13:38:25" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\cullenNumber.spec.js" time="0.0010" failures="2">
     <testcase name="In the Cullen series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Cullen series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
-    <testcase name="In the Cullen series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
+    <testcase name="In the Cullen series the -1. number should return error" time="0.0010" classname="the -1. number should return error">
     </testcase>
     <testcase name="In the Cullen series the 0. number should be 1" time="0.0000" classname="the 0. number should be 1">
       <failure message="cullenNumber is not a function" type="TypeError"><![CDATA[TypeError: cullenNumber is not a function
@@ -126,7 +119,7 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Factorial series" timestamp="2022-10-24T07:25:31" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\factorial.spec.js" time="0.0020" failures="3">
+  <testsuite name="In the Factorial series" timestamp="2022-10-24T13:38:25" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\factorial.spec.js" time="0.0040" failures="3">
     <testcase name="In the Factorial series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Factorial series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
@@ -149,12 +142,12 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Fermat number series" timestamp="2022-10-24T07:25:31" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\fermatNumber.spec.js" time="0.0020" failures="3">
+  <testsuite name="In the Fermat number series" timestamp="2022-10-24T13:38:25" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\fermatNumber.spec.js" time="0.0040" failures="3">
     <testcase name="In the Fermat number series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Fermat number series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
-    <testcase name="In the Fermat number series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
+    <testcase name="In the Fermat number series the -1. number should return error" time="0.0010" classname="the -1. number should return error">
     </testcase>
     <testcase name="In the Fermat number series the 0. number should be 3" time="0.0000" classname="the 0. number should be 3">
       <failure message="fermatNumber is not a function" type="TypeError"><![CDATA[TypeError: fermatNumber is not a function
@@ -172,7 +165,7 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Jacobsthal series" timestamp="2022-10-24T07:25:31" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\jacobsthalNumber.spec.js" time="0.0020" failures="4">
+  <testsuite name="In the Jacobsthal series" timestamp="2022-10-24T13:38:25" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\jacobsthalNumber.spec.js" time="0.0030" failures="4">
     <testcase name="In the Jacobsthal series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Jacobsthal series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
@@ -184,7 +177,7 @@
     at Context.<anonymous> (plus\test\series\jacobsthalNumber.spec.js:15:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="In the Jacobsthal series the 1. number should be 1" time="0.0010" classname="the 1. number should be 1">
+    <testcase name="In the Jacobsthal series the 1. number should be 1" time="0.0000" classname="the 1. number should be 1">
       <failure message="jacobsthalNumber is not a function" type="TypeError"><![CDATA[TypeError: jacobsthalNumber is not a function
     at Context.<anonymous> (plus\test\series\jacobsthalNumber.spec.js:18:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
@@ -200,7 +193,7 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Lucas series" timestamp="2022-10-24T07:25:31" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\lucasNumber.spec.js" time="0.0030" failures="4">
+  <testsuite name="In the Lucas series" timestamp="2022-10-24T13:38:25" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\lucasNumber.spec.js" time="0.0030" failures="4">
     <testcase name="In the Lucas series the parameter should be a number" time="0.0010" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Lucas series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
@@ -228,10 +221,10 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Narayana&apos;s cows series" timestamp="2022-10-24T07:25:31" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\narayana.spec.js" time="0.0040" failures="5">
-    <testcase name="In the Narayana&apos;s cows series the parameter should be a number" time="0.0010" classname="the parameter should be a number">
+  <testsuite name="In the Narayana&apos;s cows series" timestamp="2022-10-24T13:38:25" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\narayana.spec.js" time="0.0030" failures="5">
+    <testcase name="In the Narayana&apos;s cows series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
-    <testcase name="In the Narayana&apos;s cows series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
+    <testcase name="In the Narayana&apos;s cows series the -2. number should return error" time="0.0010" classname="the -2. number should return error">
     </testcase>
     <testcase name="In the Narayana&apos;s cows series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
     </testcase>
@@ -255,20 +248,20 @@
     at Context.<anonymous> (plus\test\series\narayana.spec.js:24:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="In the Narayana&apos;s cows series the 10. number should be 28" time="0.0010" classname="the 10. number should be 28">
+    <testcase name="In the Narayana&apos;s cows series the 10. number should be 28" time="0.0000" classname="the 10. number should be 28">
       <failure message="narayana is not a function" type="TypeError"><![CDATA[TypeError: narayana is not a function
     at Context.<anonymous> (plus\test\series\narayana.spec.js:27:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Padovan series" timestamp="2022-10-24T07:25:31" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\padovan.spec.js" time="0.0020" failures="5">
+  <testsuite name="In the Padovan series" timestamp="2022-10-24T13:38:25" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\padovan.spec.js" time="0.0050" failures="5">
     <testcase name="In the Padovan series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
-    <testcase name="In the Padovan series the -2. number should return error" time="0.0010" classname="the -2. number should return error">
+    <testcase name="In the Padovan series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
-    <testcase name="In the Padovan series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
+    <testcase name="In the Padovan series the -1. number should return error" time="0.0010" classname="the -1. number should return error">
     </testcase>
-    <testcase name="In the Padovan series the 0. number should be 1" time="0.0000" classname="the 0. number should be 1">
+    <testcase name="In the Padovan series the 0. number should be 1" time="0.0010" classname="the 0. number should be 1">
       <failure message="padovan is not a function" type="TypeError"><![CDATA[TypeError: padovan is not a function
     at Context.<anonymous> (plus\test\series\padovan.spec.js:15:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
@@ -294,14 +287,14 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Pell series" timestamp="2022-10-24T07:25:31" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\pellNumber.spec.js" time="0.0020" failures="4">
-    <testcase name="In the Pell series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
+  <testsuite name="In the Pell series" timestamp="2022-10-24T13:38:25" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\pellNumber.spec.js" time="0.0030" failures="4">
+    <testcase name="In the Pell series the parameter should be a number" time="0.0010" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Pell series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
     <testcase name="In the Pell series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
     </testcase>
-    <testcase name="In the Pell series the 0. number should be 0" time="0.0000" classname="the 0. number should be 0">
+    <testcase name="In the Pell series the 0. number should be 0" time="0.0010" classname="the 0. number should be 0">
       <failure message="pellNumber is not a function" type="TypeError"><![CDATA[TypeError: pellNumber is not a function
     at Context.<anonymous> (plus\test\series\pellNumber.spec.js:15:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
@@ -322,7 +315,7 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Perrin series" timestamp="2022-10-24T07:25:31" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\perrinNumber.spec.js" time="0.0020" failures="5">
+  <testsuite name="In the Perrin series" timestamp="2022-10-24T13:38:25" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\perrinNumber.spec.js" time="0.0030" failures="5">
     <testcase name="In the Perrin series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Perrin series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
@@ -339,7 +332,7 @@
     at Context.<anonymous> (plus\test\series\perrinNumber.spec.js:18:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="In the Perrin series the 2. number should be 2" time="0.0010" classname="the 2. number should be 2">
+    <testcase name="In the Perrin series the 2. number should be 2" time="0.0000" classname="the 2. number should be 2">
       <failure message="perrinNumber is not a function" type="TypeError"><![CDATA[TypeError: perrinNumber is not a function
     at Context.<anonymous> (plus\test\series\perrinNumber.spec.js:21:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
@@ -355,7 +348,7 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Prime series" timestamp="2022-10-24T07:25:31" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\primeNumber.spec.js" time="0.0020" failures="2">
+  <testsuite name="In the Prime series" timestamp="2022-10-24T13:38:25" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\primeNumber.spec.js" time="0.0020" failures="2">
     <testcase name="In the Prime series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Prime series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
@@ -373,32 +366,32 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Sylvester series" timestamp="2022-10-24T07:25:31" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\sylversterSequence.spec.js" time="0.0020" failures="2">
+  <testsuite name="In the Sylvester series" timestamp="2022-10-24T13:38:25" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\sylversterSequence.spec.js" time="0.0010" failures="2">
     <testcase name="In the Sylvester series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Sylvester series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
-    <testcase name="In the Sylvester series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
+    <testcase name="In the Sylvester series the -1. number should return error" time="0.0010" classname="the -1. number should return error">
     </testcase>
     <testcase name="In the Sylvester series the 0. number should be 2" time="0.0000" classname="the 0. number should be 2">
       <failure message="sylvesterSequence is not a function" type="TypeError"><![CDATA[TypeError: sylvesterSequence is not a function
     at Context.<anonymous> (plus\test\series\sylversterSequence.spec.js:15:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="In the Sylvester series the 4. number should be 1807 " time="0.0010" classname="the 4. number should be 1807 ">
+    <testcase name="In the Sylvester series the 4. number should be 1807 " time="0.0000" classname="the 4. number should be 1807 ">
       <failure message="sylvesterSequence is not a function" type="TypeError"><![CDATA[TypeError: sylvesterSequence is not a function
     at Context.<anonymous> (plus\test\series\sylversterSequence.spec.js:18:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Tribonacci series" timestamp="2022-10-24T07:25:31" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\tribonacciSequence.spec.js" time="0.0030" failures="4">
+  <testsuite name="In the Tribonacci series" timestamp="2022-10-24T13:38:25" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\tribonacciSequence.spec.js" time="0.0020" failures="4">
     <testcase name="In the Tribonacci series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
     <testcase name="In the Tribonacci series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
     </testcase>
     <testcase name="In the Tribonacci series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
     </testcase>
-    <testcase name="In the Tribonacci series the 0. number should be 0" time="0.0010" classname="the 0. number should be 0">
+    <testcase name="In the Tribonacci series the 0. number should be 0" time="0.0000" classname="the 0. number should be 0">
       <failure message="tribonacciSequence is not a function" type="TypeError"><![CDATA[TypeError: tribonacciSequence is not a function
     at Context.<anonymous> (plus\test\series\tribonacciSequence.spec.js:15:16)
     at processImmediate (node:internal/timers:466:21)]]></failure>
@@ -419,10 +412,10 @@
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="In the Woodall series" timestamp="2022-10-24T07:25:31" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\js-webinar\plus\test\series\woodallNumber.spec.js" time="0.0020" failures="2">
+  <testsuite name="In the Woodall series" timestamp="2022-10-24T13:38:25" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\jw-webinar-KT\plus\test\series\woodallNumber.spec.js" time="0.0050" failures="2">
     <testcase name="In the Woodall series the parameter should be a number" time="0.0000" classname="the parameter should be a number">
     </testcase>
-    <testcase name="In the Woodall series the -2. number should return error" time="0.0000" classname="the -2. number should return error">
+    <testcase name="In the Woodall series the -2. number should return error" time="0.0010" classname="the -2. number should return error">
     </testcase>
     <testcase name="In the Woodall series the -1. number should return error" time="0.0000" classname="the -1. number should return error">
     </testcase>

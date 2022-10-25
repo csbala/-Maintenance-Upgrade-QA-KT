@@ -1,7 +1,7 @@
 [
     {
-        "arguments": [12],
-        "result": 0
+        "arguments": [[12]],
+        "result": 12
     },
     {
         "arguments": [[]],

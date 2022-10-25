@@ -8,27 +8,29 @@
  */
 
 module.exports = function longestString(strings) {
-    if (!Array.isArray(strings) || strings.length < 2) return '';
-    let resultArray = [];
+  if (!Array.isArray(strings) || strings.length < 2) return "";
+  let resultArray = [];
 
-    //that is not needed, but it enhance further testing for nested arrays
-    function getStrings(arr) {
-        resultArray = resultArray.concat(arr.filter((string) => {
-            return typeof string === 'string';
-        }));
-        for (const elem of arr) {
-            if (Array.isArray(elem)) {
-                getStrings(elem);
-            }
-        }
+  //that is not needed, but it enhance further testing for nested arrays
+  function getStrings(arr) {
+    resultArray = resultArray.concat(
+      arr.filter((string) => {
+        return typeof string === "string";
+      })
+    );
+    for (const elem of arr) {
+      if (Array.isArray(elem)) {
+        getStrings(elem);
+      }
     }
+  }
 
-    getStrings(strings);
-    if (resultArray.length) {
-        return resultArray.sort((a, b) => {
-            if (b.length > a.length) return 1;
-            if (b.length < a.length) return -1;
-            if (b.length === a.length) return (a.localeCompare(b));
-        })[0];
-    } else return '';
-}
+  getStrings(strings);
+  if (resultArray.length) {
+    return resultArray.sort((a, b) => {
+      if (b.length > a.length) return 1;
+      if (b.length < a.length) return -1;
+      if (b.length === a.length) return a.localeCompare(b);
+    })[0];
+  } else return "";
+};

@@ -32,6 +32,7 @@ function readLine() {
  */
 
 function arrayManipulation(n, queries) {
+    
   let myArray = new Array(n).fill(0);
 
   for (let a = 0; a < queries.length; a++) {

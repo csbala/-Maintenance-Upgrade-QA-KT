@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0400" tests="52" failures="2">
-  <testsuite name="Root Suite" timestamp="2022-10-25T14:26:10" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0490" tests="52" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-10-26T11:18:25" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Module 4 - arrayEqual" timestamp="2022-10-25T14:26:10" tests="10" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\arrayEqual.spec.js" time="0.0130" failures="0">
-    <testcase name="Module 4 - arrayEqual should be a function" time="0.0000" classname="should be a function">
+  <testsuite name="Module 4 - arrayEqual" timestamp="2022-10-26T11:18:25" tests="10" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\arrayEqual.spec.js" time="0.0200" failures="0">
+    <testcase name="Module 4 - arrayEqual should be a function" time="0.0010" classname="should be a function">
     </testcase>
-    <testcase name="Module 4 - arrayEqual should print out a message if the length of two arrays are different, with different lengths" time="0.0020" classname="should print out a message if the length of two arrays are different, with different lengths">
+    <testcase name="Module 4 - arrayEqual should print out a message if the length of two arrays are different, with different lengths" time="0.0030" classname="should print out a message if the length of two arrays are different, with different lengths">
     </testcase>
-    <testcase name="Module 4 - arrayEqual should print out a message if two elements are different, with the different elements" time="0.0010" classname="should print out a message if two elements are different, with the different elements">
+    <testcase name="Module 4 - arrayEqual should print out a message if two elements are different, with the different elements" time="0.0020" classname="should print out a message if two elements are different, with the different elements">
     </testcase>
     <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,3],[1,2,3]]" time="0.0000" classname="should return proper value for [[1,2,3],[1,2,3]]">
     </testcase>
-    <testcase name="Module 4 - arrayEqual should return proper value for [[],[]]" time="0.0010" classname="should return proper value for [[],[]]">
+    <testcase name="Module 4 - arrayEqual should return proper value for [[],[]]" time="0.0000" classname="should return proper value for [[],[]]">
     </testcase>
-    <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,3],[2,3,1]]" time="0.0000" classname="should return proper value for [[1,2,3],[2,3,1]]">
+    <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,3],[2,3,1]]" time="0.0010" classname="should return proper value for [[1,2,3],[2,3,1]]">
     </testcase>
     <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,3],[1,2]]" time="0.0010" classname="should return proper value for [[1,2,3],[1,2]]">
     </testcase>
-    <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,3],[1,2,4]]" time="0.0010" classname="should return proper value for [[1,2,3],[1,2,4]]">
+    <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,3],[1,2,4]]" time="0.0000" classname="should return proper value for [[1,2,3],[1,2,4]]">
     </testcase>
-    <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]],[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]]]" time="0.0010" classname="should return proper value for [[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]],[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]]]">
+    <testcase name="Module 4 - arrayEqual should return proper value for [[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]],[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]]]" time="0.0000" classname="should return proper value for [[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]],[1,2,[&quot;Hello&quot;,[[[[[4]]]]]]]]">
     </testcase>
     <testcase name="Module 4 - arrayEqual should return proper value for [[1,&quot;2&quot;,[[[[[4]]]]]],[1,2,[[[[[4]]]]]]]" time="0.0010" classname="should return proper value for [[1,&quot;2&quot;,[[[[[4]]]]]],[1,2,[[[[[4]]]]]]]">
     </testcase>
   </testsuite>
-  <testsuite name="Module 4 - arraySorted" timestamp="2022-10-25T14:26:10" tests="12" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\arraySorted.spec.js" time="0.0050" failures="0">
+  <testsuite name="Module 4 - arraySorted" timestamp="2022-10-26T11:18:25" tests="12" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\arraySorted.spec.js" time="0.0060" failures="0">
     <testcase name="Module 4 - arraySorted should be a function" time="0.0000" classname="should be a function">
     </testcase>
-    <testcase name="Module 4 - arraySorted should return proper value for [[]]" time="0.0010" classname="should return proper value for [[]]">
+    <testcase name="Module 4 - arraySorted should return proper value for [[]]" time="0.0000" classname="should return proper value for [[]]">
     </testcase>
     <testcase name="Module 4 - arraySorted should return proper value for [[1,2,3]]" time="0.0000" classname="should return proper value for [[1,2,3]]">
     </testcase>
@@ -50,8 +50,8 @@
     <testcase name="Module 4 - arraySorted should return proper value for [[&quot;Hello World! How are you? Fine!&quot;,&quot;Hello World How! Are you fine?&quot;],&quot;!?&quot;]" time="0.0000" classname="should return proper value for [[&quot;Hello World! How are you? Fine!&quot;,&quot;Hello World How! Are you fine?&quot;],&quot;!?&quot;]">
     </testcase>
   </testsuite>
-  <testsuite name="Module 4 - arraySum" timestamp="2022-10-25T14:26:10" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\arraySum.spec.js" time="0.0020" failures="0">
-    <testcase name="Module 4 - arraySum should be a function" time="0.0000" classname="should be a function">
+  <testsuite name="Module 4 - arraySum" timestamp="2022-10-26T11:18:25" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\arraySum.spec.js" time="0.0030" failures="0">
+    <testcase name="Module 4 - arraySum should be a function" time="0.0010" classname="should be a function">
     </testcase>
     <testcase name="Module 4 - arraySum should return proper value for [[12]]" time="0.0000" classname="should return proper value for [[12]]">
     </testcase>
@@ -64,8 +64,8 @@
     <testcase name="Module 4 - arraySum should return proper value for [[1,2,[[[[[3]],[4,[[[[&quot;12&quot;,2]]]]]]]]]]" time="0.0000" classname="should return proper value for [[1,2,[[[[[3]],[4,[[[[&quot;12&quot;,2]]]]]]]]]]">
     </testcase>
   </testsuite>
-  <testsuite name="Module 4 - longestString" timestamp="2022-10-25T14:26:10" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\longestString.spec.js" time="0.0020" failures="0">
-    <testcase name="Module 4 - longestString should be a function" time="0.0000" classname="should be a function">
+  <testsuite name="Module 4 - longestString" timestamp="2022-10-26T11:18:25" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\longestString.spec.js" time="0.0030" failures="0">
+    <testcase name="Module 4 - longestString should be a function" time="0.0010" classname="should be a function">
     </testcase>
     <testcase name="Module 4 - longestString should return proper value for [&quot;hello&quot;]" time="0.0000" classname="should return proper value for [&quot;hello&quot;]">
     </testcase>
@@ -73,25 +73,25 @@
     </testcase>
     <testcase name="Module 4 - longestString should return proper value for [[1]]" time="0.0000" classname="should return proper value for [[1]]">
     </testcase>
-    <testcase name="Module 4 - longestString should return proper value for [[&quot;foo&quot;,&quot;baar&quot;]]" time="0.0010" classname="should return proper value for [[&quot;foo&quot;,&quot;baar&quot;]]">
+    <testcase name="Module 4 - longestString should return proper value for [[&quot;foo&quot;,&quot;baar&quot;]]" time="0.0000" classname="should return proper value for [[&quot;foo&quot;,&quot;baar&quot;]]">
     </testcase>
     <testcase name="Module 4 - longestString should return proper value for [[&quot;foo&quot;,&quot;arm&quot;]]" time="0.0000" classname="should return proper value for [[&quot;foo&quot;,&quot;arm&quot;]]">
     </testcase>
     <testcase name="Module 4 - longestString should return proper value for [[true,&quot;hello&quot;,&quot;world&quot;]]" time="0.0000" classname="should return proper value for [[true,&quot;hello&quot;,&quot;world&quot;]]">
     </testcase>
   </testsuite>
-  <testsuite name="Module 4 - romanToDec" timestamp="2022-10-25T14:26:10" tests="11" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\romanToDec.spec.js" time="0.0110" failures="2">
+  <testsuite name="Module 4 - romanToDec" timestamp="2022-10-26T11:18:25" tests="11" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\romanToDec.spec.js" time="0.0120" failures="2">
     <testcase name="Module 4 - romanToDec should be a function" time="0.0000" classname="should be a function">
     </testcase>
     <testcase name="Module 4 - romanToDec should print out a message if the argument is not string" time="0.0010" classname="should print out a message if the argument is not string">
     </testcase>
-    <testcase name="Module 4 - romanToDec should print out a message if the argument is not a valid roman number" time="0.0010" classname="should print out a message if the argument is not a valid roman number">
+    <testcase name="Module 4 - romanToDec should print out a message if the argument is not a valid roman number" time="0.0000" classname="should print out a message if the argument is not a valid roman number">
     </testcase>
-    <testcase name="Module 4 - romanToDec should return proper value for &quot;i&quot;" time="0.0000" classname="should return proper value for &quot;i&quot;">
+    <testcase name="Module 4 - romanToDec should return proper value for &quot;i&quot;" time="0.0010" classname="should return proper value for &quot;i&quot;">
     </testcase>
     <testcase name="Module 4 - romanToDec should return proper value for &quot;iv&quot;" time="0.0000" classname="should return proper value for &quot;iv&quot;">
     </testcase>
-    <testcase name="Module 4 - romanToDec should return proper value for &quot;xcix&quot;" time="0.0000" classname="should return proper value for &quot;xcix&quot;">
+    <testcase name="Module 4 - romanToDec should return proper value for &quot;xcix&quot;" time="0.0010" classname="should return proper value for &quot;xcix&quot;">
       <failure message="expected 79 to equal 99" type="AssertionError"><![CDATA[AssertionError: expected 79 to equal 99
     at Context.<anonymous> (module-4\test\romanToDec.spec.js:34:51)
     at processImmediate (node:internal/timers:466:21)]]></failure>
@@ -100,20 +100,20 @@
     </testcase>
     <testcase name="Module 4 - romanToDec should return proper value for &quot;mmmcxc&quot;" time="0.0000" classname="should return proper value for &quot;mmmcxc&quot;">
     </testcase>
-    <testcase name="Module 4 - romanToDec should return proper value for &quot;mmmcmxcix&quot;" time="0.0000" classname="should return proper value for &quot;mmmcmxcix&quot;">
+    <testcase name="Module 4 - romanToDec should return proper value for &quot;mmmcmxcix&quot;" time="0.0010" classname="should return proper value for &quot;mmmcmxcix&quot;">
       <failure message="expected 3779 to equal 3999" type="AssertionError"><![CDATA[AssertionError: expected 3779 to equal 3999
     at Context.<anonymous> (module-4\test\romanToDec.spec.js:34:51)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="Module 4 - romanToDec should return proper value for &quot;cdq&quot;" time="0.0010" classname="should return proper value for &quot;cdq&quot;">
+    <testcase name="Module 4 - romanToDec should return proper value for &quot;cdq&quot;" time="0.0000" classname="should return proper value for &quot;cdq&quot;">
     </testcase>
-    <testcase name="Module 4 - romanToDec should return proper value for &quot;qqq&quot;" time="0.0010" classname="should return proper value for &quot;qqq&quot;">
+    <testcase name="Module 4 - romanToDec should return proper value for &quot;qqq&quot;" time="0.0000" classname="should return proper value for &quot;qqq&quot;">
     </testcase>
   </testsuite>
-  <testsuite name="Module 4 - toCamelCase" timestamp="2022-10-25T14:26:10" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\toCamelCase.spec.js" time="0.0020" failures="0">
+  <testsuite name="Module 4 - toCamelCase" timestamp="2022-10-26T11:18:25" tests="6" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-4\test\toCamelCase.spec.js" time="0.0020" failures="0">
     <testcase name="Module 4 - toCamelCase should be a function" time="0.0000" classname="should be a function">
     </testcase>
-    <testcase name="Module 4 - toCamelCase should return proper value for [12]" time="0.0000" classname="should return proper value for [12]">
+    <testcase name="Module 4 - toCamelCase should return proper value for [12]" time="0.0010" classname="should return proper value for [12]">
     </testcase>
     <testcase name="Module 4 - toCamelCase should return proper value for [&quot;Hello World&quot;]" time="0.0000" classname="should return proper value for [&quot;Hello World&quot;]">
     </testcase>

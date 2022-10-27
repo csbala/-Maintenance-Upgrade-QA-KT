@@ -1,3 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0010" tests="0" failures="0">
+<testsuites name="Mocha Tests" time="0.0130" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-27T12:57:25" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Calculator Tests" timestamp="2022-10-27T12:57:25" tests="11" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0100" failures="0">
+    <testcase name="Calculator Tests Should be defined" time="0.0000" classname="Should be defined">
+    </testcase>
+    <testcase name="Calculator Tests Should have stored v as number" time="0.0000" classname="Should have stored v as number">
+    </testcase>
+    <testcase name="Calculator Tests When add() method called right value is given back" time="0.0000" classname="When add() method called right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When minus() method called right value is given back" time="0.0000" classname="When minus() method called right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When sqrt() method called right value is given back" time="0.0000" classname="When sqrt() method called right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When times() method called right value is given back" time="0.0000" classname="When times() method called right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When divide() method called right value is given back" time="0.0000" classname="When divide() method called right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When modulo() method called right value is given back" time="0.0000" classname="When modulo() method called right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests Should give back error if divide is called with 0" time="0.0010" classname="Should give back error if divide is called with 0">
+    </testcase>
+    <testcase name="Calculator Tests Should give back error if sqrt is called with a base as a negative number" time="0.0000" classname="Should give back error if sqrt is called with a base as a negative number">
+    </testcase>
+    <testcase name="Calculator Tests Should able to do nested/mutiple method cals" time="0.0000" classname="Should able to do nested/mutiple method cals">
+    </testcase>
+  </testsuite>
 </testsuites>

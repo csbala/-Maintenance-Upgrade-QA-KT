@@ -1,25 +1,25 @@
-'use strict';
+"use strict";
 
-const fs = require('fs');
+const fs = require("fs");
 
 process.stdin.resume();
-process.stdin.setEncoding('utf-8');
+process.stdin.setEncoding("utf-8");
 
-let inputString = '';
+let inputString = "";
 let currentLine = 0;
 
-process.stdin.on('data', function(inputStdin) {
-    inputString += inputStdin;
+process.stdin.on("data", function (inputStdin) {
+  inputString += inputStdin;
 });
 
-process.stdin.on('end', function() {
-    inputString = inputString.split('\n');
+process.stdin.on("end", function () {
+  inputString = inputString.split("\n");
 
-    main();
+  main();
 });
 
 function readLine() {
-    return inputString[currentLine++];
+  return inputString[currentLine++];
 }
 
 /*
@@ -30,33 +30,33 @@ function readLine() {
  */
 
 function funnyString(s) {
-    
-     let reverse_s = s
-     .split("")
-     .reverse()
-     .map((char) => char.charCodeAt(0))
-     
-     s
-     .split("")
-     .map((char) => char.charCodeAt(0));
-     
-     
-     
+  const stringArary = s.split("").map((char) => char.charCodeAt(0));
 
+  const len = stringArary.length - 1;
+
+  for (let i = 0; i < len; i++) {
+    if (
+      Math.abs(stringArary[i] - stringArary[i + 1]) !=
+      Math.abs(stringArary[len - i] - stringArary[len - i - 1])
+    ) {
+      return "Not Funny";
+    }
+  }
+  return "Funny";
 }
 
 function main() {
-    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+  const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
-    const q = parseInt(readLine().trim(), 10);
+  const q = parseInt(readLine().trim(), 10);
 
-    for (let qItr = 0; qItr < q; qItr++) {
-        const s = readLine();
+  for (let qItr = 0; qItr < q; qItr++) {
+    const s = readLine();
 
-        const result = funnyString(s);
+    const result = funnyString(s);
 
-        ws.write(result + '\n');
-    }
+    ws.write(result + "\n");
+  }
 
-    ws.end();
+  ws.end();
 }

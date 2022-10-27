@@ -67,7 +67,7 @@ describe.only("Calculator Tests", () => {
     expect(() => new calc(-3).sqrt()).to.throw();
   });
 
-  it("Should able to do nested/mutiple method cals", () => {
+  it("Should able to do nested/mutiple method calls", () => {
     const element = new calc(3).add(4).minus(3).times(6);
     expect(element.v).to.equal(24);
   });

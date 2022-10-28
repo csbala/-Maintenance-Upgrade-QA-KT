@@ -1,3 +1,4 @@
+const { AssertionError, Assertion } = require("chai");
 const calc = require("../calc");
 const expect = require("chai").expect;
 
@@ -59,7 +60,6 @@ describe.only("Calculator Tests", () => {
     expect(element.v).to.equal(0);
   });
 
-
   describe("Decimal Numbers", () => {
     it("Should have stored v as decimal number", () => {
       const element = new calc(3.4);
@@ -114,10 +114,12 @@ describe.only("Calculator Tests", () => {
     });
 
     it("Should give back error if a nested/multiple call is called with one wrong method.", () => {
-      expect(() => new calc(3).add().minus(3).times(6)).to.throw(new );
-    
+      () =>
+        new calc(3)
+          .add()
+          .minus(3)
+          .times(6)
+          .catch((err) => expect("Asserion error" + err));
     });
-
-    
   });
 });

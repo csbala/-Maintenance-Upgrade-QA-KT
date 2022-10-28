@@ -99,13 +99,13 @@ describe.only("Calculator Tests", () => {
       expect(() => new calc()).to.throw();
     });
 
-    it("Should give back error if calc() isn't called with a number", () => {
+    it("Should throw an error if calc() isn't called with a number", () => {
       expect(() => new calc("a")).to.throw();
       expect(() => new calc("abc")).to.throw();
       expect(() => new calc(ß)).to.throw();
     });
 
-    it("Should give back error if divide is called with 0", () => {
+    it("Should throw an error if divide is called with 0", () => {
       expect(() => new calc(4).divide(0)).to.throw();
     });
 

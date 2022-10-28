@@ -59,10 +59,6 @@ describe.only("Calculator Tests", () => {
     expect(element.v).to.equal(0);
   });
 
-  it("Should able to do nested/mutiple method calls", () => {
-    const element = new calc(3).add(4).minus(3).times(6);
-    expect(element.v).to.equal(24);
-  });
 
   describe("Decimal Numbers", () => {
     it("Should have stored v as decimal number", () => {
@@ -116,5 +112,12 @@ describe.only("Calculator Tests", () => {
     it("Should give back error if sqrt is called with a base as a negative number", () => {
       expect(() => new calc(-3).sqrt()).to.throw();
     });
+
+    it("Should give back error if a nested/multiple call is called with one wrong method.", () => {
+      expect(() => new calc(3).add().minus(3).times(6)).to.throw(new );
+    
+    });
+
+    
   });
 });

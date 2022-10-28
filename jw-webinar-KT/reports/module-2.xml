@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0210" tests="20" failures="3">
-  <testsuite name="Root Suite" timestamp="2022-10-28T08:15:41" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0210" tests="20" failures="4">
+  <testsuite name="Root Suite" timestamp="2022-10-28T08:25:31" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Calculator Tests" timestamp="2022-10-28T08:15:41" tests="9" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0000" failures="0">
-    <testcase name="Calculator Tests Should be defined" time="0.0010" classname="Should be defined">
+  <testsuite name="Calculator Tests" timestamp="2022-10-28T08:25:31" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0000" failures="0">
+    <testcase name="Calculator Tests Should be defined" time="0.0000" classname="Should be defined">
     </testcase>
-    <testcase name="Calculator Tests Should have stored v as number" time="0.0010" classname="Should have stored v as number">
+    <testcase name="Calculator Tests Should have stored v as number" time="0.0000" classname="Should have stored v as number">
     </testcase>
     <testcase name="Calculator Tests When add() method is called, the right value is given back" time="0.0000" classname="When add() method is called, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests When minus() method is called, right value is given back" time="0.0000" classname="When minus() method is called, right value is given back">
+    <testcase name="Calculator Tests When minus() method is called, right value is given back" time="0.0010" classname="When minus() method is called, right value is given back">
     </testcase>
-    <testcase name="Calculator Tests When sqrt() method is called, the right value is given back" time="0.0010" classname="When sqrt() method is called, the right value is given back">
+    <testcase name="Calculator Tests When sqrt() method is called, the right value is given back" time="0.0000" classname="When sqrt() method is called, the right value is given back">
     </testcase>
     <testcase name="Calculator Tests When times() method is called, the right value is given back" time="0.0000" classname="When times() method is called, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests When divide() method is called, the right value is given back" time="0.0000" classname="When divide() method is called, the right value is given back">
+    <testcase name="Calculator Tests When divide() method is called, the right value is given back" time="0.0010" classname="When divide() method is called, the right value is given back">
     </testcase>
     <testcase name="Calculator Tests When modulo() method is called, the right value is given back" time="0.0000" classname="When modulo() method is called, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests Should able to do nested/mutiple method calls" time="0.0000" classname="Should able to do nested/mutiple method calls">
-    </testcase>
   </testsuite>
-  <testsuite name="Decimal Numbers" timestamp="2022-10-28T08:15:41" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0050" failures="1">
-    <testcase name="Calculator Tests Decimal Numbers Should have stored v as decimal number" time="0.0000" classname="Should have stored v as decimal number">
+  <testsuite name="Decimal Numbers" timestamp="2022-10-28T08:25:31" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0070" failures="1">
+    <testcase name="Calculator Tests Decimal Numbers Should have stored v as decimal number" time="0.0010" classname="Should have stored v as decimal number">
     </testcase>
     <testcase name="Calculator Tests Decimal Numbers When add() method called with decimal number, the right value is given back" time="0.0000" classname="When add() method called with decimal number, the right value is given back">
     </testcase>
     <testcase name="Calculator Tests Decimal Numbers When minus() method is called with decimal number, right value is given back" time="0.0010" classname="When minus() method is called with decimal number, right value is given back">
       <failure message="expected 0.8999999999999999 to equal 0.9" type="AssertionError"><![CDATA[AssertionError: expected 0.8999999999999999 to equal 0.9
-    at Context.<anonymous> (module-2\test\calc.spec.js:81:28)
+    at Context.<anonymous> (module-2\test\calc.spec.js:77:28)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
     <testcase name="Calculator Tests Decimal Numbers When sqrt() method is called with decimal number, the right value is given back" time="0.0000" classname="When sqrt() method is called with decimal number, the right value is given back">
@@ -41,20 +39,25 @@
     <testcase name="Calculator Tests Decimal Numbers When modulo() method is called with a decimal number, the right value is given back" time="0.0000" classname="When modulo() method is called with a decimal number, the right value is given back">
     </testcase>
   </testsuite>
-  <testsuite name="Error handling" timestamp="2022-10-28T08:15:41" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0040" failures="2">
+  <testsuite name="Error handling" timestamp="2022-10-28T08:25:31" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0030" failures="3">
     <testcase name="Calculator Tests Error handling Should give back error if calc() is called without parameter" time="0.0010" classname="Should give back error if calc() is called without parameter">
       <failure message="expected [Function] to throw an error" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw an error
-    at Context.<anonymous> (module-2\test\calc.spec.js:103:40)
+    at Context.<anonymous> (module-2\test\calc.spec.js:99:40)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="Calculator Tests Error handling Should give back error if calc() isn&apos;t called with a number" time="0.0010" classname="Should give back error if calc() isn&apos;t called with a number">
+    <testcase name="Calculator Tests Error handling Should give back error if calc() isn&apos;t called with a number" time="0.0000" classname="Should give back error if calc() isn&apos;t called with a number">
       <failure message="expected [Function] to throw an error" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw an error
-    at Context.<anonymous> (module-2\test\calc.spec.js:107:43)
+    at Context.<anonymous> (module-2\test\calc.spec.js:103:43)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
     <testcase name="Calculator Tests Error handling Should give back error if divide is called with 0" time="0.0000" classname="Should give back error if divide is called with 0">
     </testcase>
     <testcase name="Calculator Tests Error handling Should give back error if sqrt is called with a base as a negative number" time="0.0000" classname="Should give back error if sqrt is called with a base as a negative number">
+    </testcase>
+    <testcase name="Calculator Tests Error handling Should give back error if a nested/multiple call is called with one wrong method." time="0.0000" classname="Should give back error if a nested/multiple call is called with one wrong method.">
+      <failure message="AssertionError is not defined" type="ReferenceError"><![CDATA[ReferenceError: AssertionError is not defined
+    at Context.<anonymous> (module-2\test\calc.spec.js:117:66)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
   </testsuite>
 </testsuites>

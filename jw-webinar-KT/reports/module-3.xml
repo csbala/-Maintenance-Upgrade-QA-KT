@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0350" tests="37" failures="0">
-  <testsuite name="Root Suite" timestamp="2022-10-26T11:18:23" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0360" tests="37" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-27T14:28:22" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Element Class" timestamp="2022-10-26T11:18:23" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0000" failures="0">
+  <testsuite name="Element Class" timestamp="2022-10-27T14:28:22" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0000" failures="0">
     <testcase name="Element Class should be defined" time="0.0000" classname="should be defined">
     </testcase>
-    <testcase name="Element Class should have stored locator" time="0.0000" classname="should have stored locator">
+    <testcase name="Element Class should have stored locator" time="0.0010" classname="should have stored locator">
     </testcase>
     <testcase name="Element Class should have stored name" time="0.0000" classname="should have stored name">
     </testcase>
   </testsuite>
-  <testsuite name="Parent" timestamp="2022-10-26T11:18:23" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0040" failures="0">
+  <testsuite name="Parent" timestamp="2022-10-27T14:28:22" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0030" failures="0">
     <testcase name="Element Class Parent should not have parent by default" time="0.0000" classname="should not have parent by default">
     </testcase>
     <testcase name="Element Class Parent should have method to set parent" time="0.0000" classname="should have method to set parent">
     </testcase>
   </testsuite>
-  <testsuite name="Children" timestamp="2022-10-26T11:18:23" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0030" failures="0">
+  <testsuite name="Children" timestamp="2022-10-27T14:28:22" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0040" failures="0">
     <testcase name="Element Class Children should not have children by default" time="0.0010" classname="should not have children by default">
     </testcase>
     <testcase name="Element Class Children should have method to add children" time="0.0000" classname="should have method to add children">
@@ -26,47 +26,47 @@
     <testcase name="Element Class Children should not add children twice" time="0.0000" classname="should not add children twice">
     </testcase>
   </testsuite>
-  <testsuite name="Get" timestamp="2022-10-26T11:18:23" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0030" failures="0">
+  <testsuite name="Get" timestamp="2022-10-27T14:28:22" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Element.spec.js" time="0.0050" failures="0">
     <testcase name="Element Class Get should have method to retrieve root element" time="0.0000" classname="should have method to retrieve root element">
     </testcase>
     <testcase name="Element Class Get should have method to retrieve children element by name" time="0.0000" classname="should have method to retrieve children element by name">
     </testcase>
-    <testcase name="Element Class Get should have method to retrieve nested children element by name" time="0.0010" classname="should have method to retrieve nested children element by name">
+    <testcase name="Element Class Get should have method to retrieve nested children element by name" time="0.0000" classname="should have method to retrieve nested children element by name">
     </testcase>
     <testcase name="Element Class Get should have method to retrieve deeply nested children element by name" time="0.0000" classname="should have method to retrieve deeply nested children element by name">
     </testcase>
     <testcase name="Element Class Get should throw error if child element is not found" time="0.0000" classname="should throw error if child element is not found">
     </testcase>
   </testsuite>
-  <testsuite name="Elements Class" timestamp="2022-10-26T11:18:23" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0000" failures="0">
+  <testsuite name="Elements Class" timestamp="2022-10-27T14:28:22" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0000" failures="0">
     <testcase name="Elements Class should be defined" time="0.0000" classname="should be defined">
     </testcase>
     <testcase name="Elements Class should have stored locator" time="0.0000" classname="should have stored locator">
     </testcase>
-    <testcase name="Elements Class should have stored name" time="0.0010" classname="should have stored name">
+    <testcase name="Elements Class should have stored name" time="0.0000" classname="should have stored name">
     </testcase>
   </testsuite>
-  <testsuite name="Parent" timestamp="2022-10-26T11:18:23" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0020" failures="0">
+  <testsuite name="Parent" timestamp="2022-10-27T14:28:22" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0020" failures="0">
     <testcase name="Elements Class Parent should not have parent by default" time="0.0000" classname="should not have parent by default">
     </testcase>
     <testcase name="Elements Class Parent should have method to set parent" time="0.0000" classname="should have method to set parent">
     </testcase>
   </testsuite>
-  <testsuite name="Children" timestamp="2022-10-26T11:18:23" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0020" failures="0">
+  <testsuite name="Children" timestamp="2022-10-27T14:28:22" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0010" failures="0">
     <testcase name="Elements Class Children should not have children by default" time="0.0000" classname="should not have children by default">
     </testcase>
     <testcase name="Elements Class Children could not have children" time="0.0000" classname="could not have children">
     </testcase>
   </testsuite>
-  <testsuite name="All" timestamp="2022-10-26T11:18:23" tests="1" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0010" failures="0">
+  <testsuite name="All" timestamp="2022-10-27T14:28:22" tests="1" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0000" failures="0">
     <testcase name="Elements Class All should have method to retrieve root elements" time="0.0000" classname="should have method to retrieve root elements">
     </testcase>
   </testsuite>
-  <testsuite name="Get" timestamp="2022-10-26T11:18:23" tests="1" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0010" failures="0">
+  <testsuite name="Get" timestamp="2022-10-27T14:28:22" tests="1" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Elements.spec.js" time="0.0000" failures="0">
     <testcase name="Elements Class Get should have method to retrieve given elements" time="0.0000" classname="should have method to retrieve given elements">
     </testcase>
   </testsuite>
-  <testsuite name="Layout Class" timestamp="2022-10-26T11:18:23" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0000" failures="0">
+  <testsuite name="Layout Class" timestamp="2022-10-27T14:28:22" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0000" failures="0">
     <testcase name="Layout Class should be defined" time="0.0000" classname="should be defined">
     </testcase>
     <testcase name="Layout Class should have stored locator" time="0.0000" classname="should have stored locator">
@@ -76,13 +76,13 @@
     <testcase name="Layout Class should have stored URL" time="0.0000" classname="should have stored URL">
     </testcase>
   </testsuite>
-  <testsuite name="Parent" timestamp="2022-10-26T11:18:23" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0010" failures="0">
+  <testsuite name="Parent" timestamp="2022-10-27T14:28:22" tests="2" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0010" failures="0">
     <testcase name="Layout Class Parent should not have parent by default" time="0.0000" classname="should not have parent by default">
     </testcase>
-    <testcase name="Layout Class Parent should throw error if parent is set" time="0.0010" classname="should throw error if parent is set">
+    <testcase name="Layout Class Parent should throw error if parent is set" time="0.0000" classname="should throw error if parent is set">
     </testcase>
   </testsuite>
-  <testsuite name="Children" timestamp="2022-10-26T11:18:23" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0010" failures="0">
+  <testsuite name="Children" timestamp="2022-10-27T14:28:22" tests="3" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0020" failures="0">
     <testcase name="Layout Class Children should not have children by default" time="0.0000" classname="should not have children by default">
     </testcase>
     <testcase name="Layout Class Children should have method to add children" time="0.0000" classname="should have method to add children">
@@ -90,18 +90,18 @@
     <testcase name="Layout Class Children should not add children twice" time="0.0000" classname="should not add children twice">
     </testcase>
   </testsuite>
-  <testsuite name="Get" timestamp="2022-10-26T11:18:23" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0020" failures="0">
+  <testsuite name="Get" timestamp="2022-10-27T14:28:22" tests="4" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0020" failures="0">
     <testcase name="Layout Class Get should have method to retrieve root element" time="0.0000" classname="should have method to retrieve root element">
     </testcase>
     <testcase name="Layout Class Get should have method to retrieve children element by name" time="0.0000" classname="should have method to retrieve children element by name">
     </testcase>
     <testcase name="Layout Class Get should have method to retrieve nested children element by name" time="0.0000" classname="should have method to retrieve nested children element by name">
     </testcase>
-    <testcase name="Layout Class Get should throw error if child element is not found" time="0.0010" classname="should throw error if child element is not found">
+    <testcase name="Layout Class Get should throw error if child element is not found" time="0.0000" classname="should throw error if child element is not found">
     </testcase>
   </testsuite>
-  <testsuite name="Load" timestamp="2022-10-26T11:18:23" tests="1" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0010" failures="0">
-    <testcase name="Layout Class Load should have method to load the page by URL" time="0.0010" classname="should have method to load the page by URL">
+  <testsuite name="Load" timestamp="2022-10-27T14:28:22" tests="1" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-3\test\pop\Layout.spec.js" time="0.0010" failures="0">
+    <testcase name="Layout Class Load should have method to load the page by URL" time="0.0000" classname="should have method to load the page by URL">
     </testcase>
   </testsuite>
 </testsuites>

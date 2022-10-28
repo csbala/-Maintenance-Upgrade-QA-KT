@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0130" tests="11" failures="0">
-  <testsuite name="Root Suite" timestamp="2022-10-27T12:57:25" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0180" tests="19" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-10-28T08:06:05" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Calculator Tests" timestamp="2022-10-27T12:57:25" tests="11" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0100" failures="0">
-    <testcase name="Calculator Tests Should be defined" time="0.0000" classname="Should be defined">
+  <testsuite name="Calculator Tests" timestamp="2022-10-28T08:06:05" tests="19" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0150" failures="2">
+    <testcase name="Calculator Tests Should be defined" time="0.0010" classname="Should be defined">
     </testcase>
     <testcase name="Calculator Tests Should have stored v as number" time="0.0000" classname="Should have stored v as number">
     </testcase>
-    <testcase name="Calculator Tests When add() method called right value is given back" time="0.0000" classname="When add() method called right value is given back">
+    <testcase name="Calculator Tests Should have stored v as decimal number" time="0.0000" classname="Should have stored v as decimal number">
     </testcase>
-    <testcase name="Calculator Tests When minus() method called right value is given back" time="0.0000" classname="When minus() method called right value is given back">
+    <testcase name="Calculator Tests When add() method is called, the right value is given back" time="0.0000" classname="When add() method is called, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests When sqrt() method called right value is given back" time="0.0000" classname="When sqrt() method called right value is given back">
+    <testcase name="Calculator Tests When add() method called with decimal number, the right value is given back" time="0.0000" classname="When add() method called with decimal number, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests When times() method called right value is given back" time="0.0000" classname="When times() method called right value is given back">
+    <testcase name="Calculator Tests When minus() method is called, right value is given back" time="0.0000" classname="When minus() method is called, right value is given back">
     </testcase>
-    <testcase name="Calculator Tests When divide() method called right value is given back" time="0.0000" classname="When divide() method called right value is given back">
+    <testcase name="Calculator Tests When minus() method is called with decimal number, right value is given back" time="0.0010" classname="When minus() method is called with decimal number, right value is given back">
+      <failure message="expected 0.8999999999999999 to equal 0.9" type="AssertionError"><![CDATA[AssertionError: expected 0.8999999999999999 to equal 0.9
+    at Context.<anonymous> (module-2\test\calc.spec.js:57:26)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="Calculator Tests When modulo() method called right value is given back" time="0.0000" classname="When modulo() method called right value is given back">
+    <testcase name="Calculator Tests When sqrt() method is called, the right value is given back" time="0.0000" classname="When sqrt() method is called, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests Should give back error if divide is called with 0" time="0.0010" classname="Should give back error if divide is called with 0">
+    <testcase name="Calculator Tests When sqrt() method is called with decimal number, the right value is given back" time="0.0000" classname="When sqrt() method is called with decimal number, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests Should give back error if sqrt is called with a base as a negative number" time="0.0000" classname="Should give back error if sqrt is called with a base as a negative number">
+    <testcase name="Calculator Tests When times() method is called, the right value is given back" time="0.0000" classname="When times() method is called, the right value is given back">
     </testcase>
-    <testcase name="Calculator Tests Should able to do nested/mutiple method cals" time="0.0000" classname="Should able to do nested/mutiple method cals">
+    <testcase name="Calculator Tests When times() method is called with decimal number, the right value is given back" time="0.0000" classname="When times() method is called with decimal number, the right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When divide() method is called, the right value is given back" time="0.0000" classname="When divide() method is called, the right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When divide() method called with decimal number, the right value is given back" time="0.0000" classname="When divide() method called with decimal number, the right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When modulo() method is called, the right value is given back" time="0.0000" classname="When modulo() method is called, the right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests When modulo() method is called with a decimal number, the right value is given back" time="0.0000" classname="When modulo() method is called with a decimal number, the right value is given back">
+    </testcase>
+    <testcase name="Calculator Tests Should give back error if calc() is called without parameter" time="0.0010" classname="Should give back error if calc() is called without parameter">
+      <failure message="expected [Function] to throw an error" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw an error
+    at Context.<anonymous> (module-2\test\calc.spec.js:101:38)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="Calculator Tests Should give back error if divide is called with 0" time="0.0000" classname="Should give back error if divide is called with 0">
+    </testcase>
+    <testcase name="Calculator Tests Should give back error if sqrt is called with a base as a negative number" time="0.0010" classname="Should give back error if sqrt is called with a base as a negative number">
+    </testcase>
+    <testcase name="Calculator Tests Should able to do nested/mutiple method calls" time="0.0000" classname="Should able to do nested/mutiple method calls">
     </testcase>
   </testsuite>
 </testsuites>

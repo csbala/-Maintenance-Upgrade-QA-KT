@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0390" tests="20" failures="3">
-  <testsuite name="Root Suite" timestamp="2022-10-28T09:05:07" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0230" tests="20" failures="3">
+  <testsuite name="Root Suite" timestamp="2022-10-28T09:21:13" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Calculator Tests" timestamp="2022-10-28T09:05:07" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0000" failures="0">
-    <testcase name="Calculator Tests Should be defined" time="0.0000" classname="Should be defined">
+  <testsuite name="Calculator Tests" timestamp="2022-10-28T09:21:13" tests="8" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0000" failures="0">
+    <testcase name="Calculator Tests Should be defined" time="0.0010" classname="Should be defined">
     </testcase>
-    <testcase name="Calculator Tests Should have stored v as number" time="0.0010" classname="Should have stored v as number">
+    <testcase name="Calculator Tests Should have stored v as number" time="0.0000" classname="Should have stored v as number">
     </testcase>
     <testcase name="Calculator Tests When add() method is called, the right value is given back" time="0.0000" classname="When add() method is called, the right value is given back">
     </testcase>
@@ -20,10 +20,10 @@
     <testcase name="Calculator Tests When modulo() method is called, the right value is given back" time="0.0000" classname="When modulo() method is called, the right value is given back">
     </testcase>
   </testsuite>
-  <testsuite name="Decimal Numbers" timestamp="2022-10-28T09:05:07" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0050" failures="1">
+  <testsuite name="Decimal Numbers" timestamp="2022-10-28T09:21:13" tests="7" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0080" failures="1">
     <testcase name="Calculator Tests Decimal Numbers Should have stored v as decimal number" time="0.0000" classname="Should have stored v as decimal number">
     </testcase>
-    <testcase name="Calculator Tests Decimal Numbers When add() method called with decimal number, the right value is given back" time="0.0010" classname="When add() method called with decimal number, the right value is given back">
+    <testcase name="Calculator Tests Decimal Numbers When add() method called with decimal number, the right value is given back" time="0.0000" classname="When add() method called with decimal number, the right value is given back">
     </testcase>
     <testcase name="Calculator Tests Decimal Numbers When minus() method is called with decimal number, right value is given back" time="0.0010" classname="When minus() method is called with decimal number, right value is given back">
       <failure message="expected 0.8999999999999999 to equal 0.9" type="AssertionError"><![CDATA[AssertionError: expected 0.8999999999999999 to equal 0.9
@@ -39,18 +39,18 @@
     <testcase name="Calculator Tests Decimal Numbers When modulo() method is called with a decimal number, the right value is given back" time="0.0000" classname="When modulo() method is called with a decimal number, the right value is given back">
     </testcase>
   </testsuite>
-  <testsuite name="Error handling" timestamp="2022-10-28T09:05:07" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0050" failures="2">
-    <testcase name="Calculator Tests Error handling Should give back error if calc() is called without parameter" time="0.0000" classname="Should give back error if calc() is called without parameter">
+  <testsuite name="Error handling" timestamp="2022-10-28T09:21:13" tests="5" file="C:\Users\Balazs_Cservenak\Documents\KT\-Maintenance-Upgrade-QA-KT\jw-webinar-KT\module-2\test\calc.spec.js" time="0.0030" failures="2">
+    <testcase name="Calculator Tests Error handling Should give back error if calc() is called without parameter" time="0.0010" classname="Should give back error if calc() is called without parameter">
       <failure message="expected [Function] to throw an error" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw an error
     at Context.<anonymous> (module-2\test\calc.spec.js:99:40)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="Calculator Tests Error handling Should give back error if calc() isn&apos;t called with a number" time="0.0000" classname="Should give back error if calc() isn&apos;t called with a number">
+    <testcase name="Calculator Tests Error handling Should throw an error if calc() isn&apos;t called with a number" time="0.0000" classname="Should throw an error if calc() isn&apos;t called with a number">
       <failure message="expected [Function] to throw an error" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw an error
     at Context.<anonymous> (module-2\test\calc.spec.js:103:43)
     at processImmediate (node:internal/timers:466:21)]]></failure>
     </testcase>
-    <testcase name="Calculator Tests Error handling Should give back error if divide is called with 0" time="0.0000" classname="Should give back error if divide is called with 0">
+    <testcase name="Calculator Tests Error handling Should throw an error if divide is called with 0" time="0.0000" classname="Should throw an error if divide is called with 0">
     </testcase>
     <testcase name="Calculator Tests Error handling Should give back error if sqrt is called with a base as a negative number" time="0.0000" classname="Should give back error if sqrt is called with a base as a negative number">
     </testcase>

@@ -119,7 +119,7 @@ describe.only("Calculator Tests", () => {
           .add()
           .minus(3)
           .times(6)
-          .catch((err) => expect("Asserion error" + err));
+          .catch((err) => expect("AssertionError is given back" + err));
     });
   });
 });
